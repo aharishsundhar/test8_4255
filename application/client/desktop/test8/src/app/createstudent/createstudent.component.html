@@ -1,0 +1,23 @@
+<h2 class="screen-align">Createstudent</h2>
+<div id="template-i7ng" class="row">
+    <div id="template-iuif" class="cell">
+        <label id="template-i17s" class="label">Name</label>
+        <input id="template-i64e" class="input form-control" />
+    </div>
+    <div id="template-iihp" class="cell">
+        <label id="template-iial" class="label">Email</label>
+        <input id="template-idqj" class="input form-control" />
+    </div>
+</div>
+<div id="template-ixgt9" class="row">
+    <div id="template-iexlr" class="cell">
+        <label id="template-i2w9" class="label">Roll_No</label>
+        <input id="template-i7x7" class="input form-control" />
+    </div>
+    <div id="template-im1ll" class="cell">
+        <label id="template-ibz9t" class="label">Department</label>
+        <input id="template-ipi4y" [(ngModel)]="students.department"
+        [ngModelOptions]="{standalone: true}" class="input form-control" />
+    </div>
+</div>
+<button id="template-ibjgi" (click)="GpCreate()" class="button btn btn-primary">Create</button>
